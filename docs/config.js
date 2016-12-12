@@ -1,28 +1,37 @@
-var langs = [
-  {title: 'English', path: '/'},
-  {title: '简体中文', path: '/lan/zh-Hans'}
-]
+var JS = [
+  {title:"JS排序算法",path:"/JS/JSSort"},
+  {title:"JS排序算法",path:"/JS/arrayUnique"},
+];
+
+var Angularjs = [
+  {title: 'uiState', path: '/Angularjs/uiState'},
+];
+
+var Backbonejs = [
+  {title: 'Angularjs', path: '/Backbonejs/'},
+];
+
+
 
 self.$config = {
   title: 'javascript_examples',
   repo: 'wanghes',
-  twitter: 'rem_rin_rin',
   nav: {
     default: [
       {
-        title: 'Home', path: '/'
+        title: '首页', path: '/'
       },
       {
-        title: 'Languages', type: 'dropdown', items: langs
-      }
-    ],
-    'zh-Hans': [
-      {
-        title: '首页', path: '/lan/zh-Hans'
+        title: 'JS技巧', path: '/JS/',type: 'dropdown', items: JS
       },
       {
-        title: '选择语言', type: 'dropdown', items: langs
+        title: 'Angularjs', path: '/Angularjs/',type: 'dropdown', items: Angularjs
+      },
+      {
+        title: 'Backbonejs', path: '/Backbonejs/',type: 'dropdown', items: Backbonejs
       }
     ]
+
+
   }
 }

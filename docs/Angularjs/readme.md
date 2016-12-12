@@ -1,6 +1,4 @@
----
-nav: zh-Hans
----
+
 
 # docute
 
@@ -165,7 +163,7 @@ docute 已经对一些语言内置了代码高亮 `javascript` `cpp` `css` `xml`
 
 把文件 push 到 GitHub 之后在项目的 settings 里选择其中一个就可以了:
 
-<img src="./assets/deploy.png" alt="deploy" width="500">
+<!-- <img src="./assets/deploy.png" alt="deploy" width="500"> -->
 
 ### 部署到 VPS
 
