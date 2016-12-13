@@ -1,7 +1,8 @@
 var JS = [
   {title:"JS排序算法",path:"/JS/JSSort"},
-  {title:"JS排序算法",path:"/JS/arrayUnique"},
+  {title:"JS去重算法",path:"/JS/arrayUnique"},
   {title:"异步表单提交方式",path:"/JS/异步表单提交方式"},
+  {title:"html5-history制作路由",path:"/JS/html5-history制作路由"},
 ];
 
 var Angularjs = [

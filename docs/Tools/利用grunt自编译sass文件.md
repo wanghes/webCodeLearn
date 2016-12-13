@@ -57,4 +57,6 @@ module.exports = function(grunt) {
 
 ![目录结构01](/images/20161213pm01.jpg)
 
+assets 目录结构如下
+
 ![目录结构02](/images/20161213pm02.jpg)
